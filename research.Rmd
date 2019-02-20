@@ -1,0 +1,7 @@
+---
+title: "Projects"
+---
+
+## Clustering Gene Sequence
+
+- Joint work with Dr. [Karin Dorman](https://www.stat.iastate.edu/people/karin-dorman) on clustering gene sequences by developing algorithms.
