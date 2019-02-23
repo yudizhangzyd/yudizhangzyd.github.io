@@ -4,7 +4,22 @@ navbar:
   title: "Yudi Zhang"
   left:
     - text: "research"
+      icon: fa-project-diagram
       href: research.html
+    - text: "About"
+      icon: fa-info
+      menu:
+        - text: "Bloggers & U Tubers"
+        - text: "Statistics"
+          href: blogger.html
+        - text: "Cooking"
+          href: cooking.html
+        - text: "---------"
+        - text: "Lifestyle"
+        - text: "music"
+          href: music.html
+        - text: "travelling"
+          href: travelling.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
