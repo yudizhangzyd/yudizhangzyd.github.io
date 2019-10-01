@@ -2,18 +2,4 @@
 ---
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-I am Yudi Zhang, from China, a PhD student in the [Department of Statistics](https://www.stat.iastate.edu/) at Iowa State University. I am interested in ioinformatics and statistical bomputing.
-
-# ```{r, echo = FALSE, fig.align = 'center', warning = FALSE, message = FALSE}
-# library(plotly)
-# library(gapminder)
-#  
-# p <- gapminder %>%
-#   filter(year==1977) %>%
-#   ggplot( aes(gdpPercap, lifeExp, size = pop, color=continent)) +
-#   geom_point() +
-#   scale_x_log10() +
-#   theme_bw()
-#  
-# ggplotly(p)
-# ```
+I am Yudi Zhang, a PhD student in the [Department of Statistics](https://www.stat.iastate.edu/) at Iowa State University. I am interested in bioinformatics, statistical modelling and statistical computing.
