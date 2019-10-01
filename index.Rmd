@@ -2,9 +2,7 @@
 ---
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-I am Yudi Zhang, from China, a PhD student in the [Department of Statistics](https://www.stat.iastate.edu/) at Iowa State University. I am interested in Bioinformatics, Statistical Computing and Data Visualization.
-
-My full CV is available [here]().
+I am Yudi Zhang, from China, a PhD student in the [Department of Statistics](https://www.stat.iastate.edu/) at Iowa State University. I am interested in Bioinformatics, Statistical Computing.
 
 ```{r, echo = FALSE, fig.align = 'center', warning = FALSE, message = FALSE}
 library(plotly)

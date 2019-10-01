@@ -3,23 +3,19 @@ output_dir: "."
 navbar:
   title: "Yudi Zhang"
   left:
-    - text: "research"
+    - text: "Research"
       icon: fa-project-diagram
       href: research.html
     - text: "About"
       icon: fa-info
       menu:
-        - text: "Bloggers & U Tubers"
+        - text: "Bloggers"
         - text: "Statistics"
           href: blogger.html
-        - text: "Cooking"
-          href: cooking.html
-        - text: "---------"
-        - text: "Lifestyle"
-        - text: "music"
-          href: music.html
-        - text: "travelling"
-          href: travelling.html
+       # - text: "---------"
+       # - text: "Lifestyle"
+       # - text: "travelling"
+       #   href: travelling.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
