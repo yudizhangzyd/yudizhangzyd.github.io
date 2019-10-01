@@ -4,4 +4,4 @@ title: "Projects"
 
 ### Clustering Categorical Dataset
 
-- Joint work with Dr. [Karin Dorman](https://www.stat.iastate.edu/people/karin-dorman). Adapt existing methods to categorical dataset clustering by taking the confidence information of that dataset.
+- Joint work with Dr. [Karin Dorman](https://www.stat.iastate.edu/people/karin-dorman). Adapt existing methods to categorical dataset clustering by taking the confidence information of that dataset, which is faster than other existing methods. We created an R package [**CClust**](https://yudizhangzyd.github.io/CClust/index.html) for our methods.
