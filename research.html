@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -72,9 +73,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -193,8 +191,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -251,20 +247,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -285,7 +278,7 @@ $(document).ready(function () {
   <a href="research.html">
     <span class="fa fa-project-diagram"></span>
      
-    research
+    Research
   </a>
 </li>
 <li class="dropdown">
@@ -297,20 +290,9 @@ $(document).ready(function () {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">Bloggers &amp; U Tubers</li>
+    <li class="dropdown-header">Bloggers</li>
     <li>
       <a href="blogger.html">Statistics</a>
-    </li>
-    <li>
-      <a href="cooking.html">Cooking</a>
-    </li>
-    <li class="divider"></li>
-    <li class="dropdown-header">Lifestyle</li>
-    <li>
-      <a href="music.html">music</a>
-    </li>
-    <li>
-      <a href="travelling.html">travelling</a>
     </li>
   </ul>
 </li>
@@ -354,10 +336,10 @@ $(document).ready(function () {
 </div>
 
 
-<div id="clustering-gene-sequence" class="section level3">
-<h3>Clustering Gene Sequence</h3>
+<div id="clustering-categorical-dataset" class="section level3">
+<h3>Clustering Categorical Dataset</h3>
 <ul>
-<li>Joint work with Dr. <a href="https://www.stat.iastate.edu/people/karin-dorman">Karin Dorman</a> on clustering gene sequences by developing algorithms. Trying to find the difference among three algorithms considering speed and performance. This is the project for my Creative Component. We use C language, which is a lot of fun and painful.</li>
+<li>Joint work with Dr. <a href="https://www.stat.iastate.edu/people/karin-dorman">Karin Dorman</a>. Adapt existing methods to categorical dataset clustering by taking the confidence information of that dataset.</li>
 </ul>
 </div>
 
@@ -378,6 +360,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
